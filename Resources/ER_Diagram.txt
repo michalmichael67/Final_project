@@ -1,0 +1,21 @@
+quickdatabasediagrams.com
+
+
+Index_Ref
+-
+Region varchar  
+Exchange varchar 
+Index varchar pk 
+Currency varchar
+
+Index_Price
+-
+Index varchar pk fk >- Index_Ref.Index
+Date date pk
+Open double 
+High double
+Low double
+Close double
+Adj_Close double
+Volume double
+CloseUSD double
