@@ -1,0 +1,19 @@
+﻿Index,Exchange,Model,Direction,Precision,Accuracy,F1
+NYA,New York Stock Exchange,Random Forest Classifier,Overall,0.62,0.62,0.62
+NYA,New York Stock Exchange,Random Forest Classifier,Up,0.64,0.6,0.63
+NYA,New York Stock Exchange,Random Forest Classifier,Down,0.59,0.63,0.59
+NYA,New York Stock Exchange,Random Forest Classifier - SMOTE Oversampling,Overall,0.75,0.62,0.58
+NYA,New York Stock Exchange,Random Forest Classifier - SMOTE Oversampling,Up,0.92,0.32,0.47
+NYA,New York Stock Exchange,Random Forest Classifier - SMOTE Oversampling,Down,0.55,0.97,0.7
+NYA,New York Stock Exchange,Random Forest Classifier - Undersampling,Overall,0.75,0.62,0.58
+NYA,New York Stock Exchange,Random Forest Classifier - Undersampling,Up,0.92,0.32,0.47
+NYA,New York Stock Exchange,Random Forest Classifier - Undersampling,Down,0.55,0.97,0.7
+IXIC,NASDAQ,Random Forest Classifier,Overall,,,
+IXIC,NASDAQ,Random Forest Classifier,Up,,,
+IXIC,NASDAQ,Random Forest Classifier,Down,,,
+IXIC,NASDAQ,Random Forest Classifier - SMOTE Oversampling,Overall,,,
+IXIC,NASDAQ,Random Forest Classifier - SMOTE Oversampling,Up,,,
+IXIC,NASDAQ,Random Forest Classifier - SMOTE Oversampling,Down,,,
+IXIC,NASDAQ,Random Forest Classifier - Undersampling,Overall,,,
+IXIC,NASDAQ,Random Forest Classifier - Undersampling,Up,,,
+IXIC,NASDAQ,Random Forest Classifier - Undersampling,Down,,,
