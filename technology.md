@@ -11,4 +11,4 @@ We intend to use SQL Database.
 LogisticRegression 
 
 ## Dashboard
-We intend to use Tableau.  
+We intend to use Tableau to structure our raw data into visualizations that is easy for our audience to understand.
