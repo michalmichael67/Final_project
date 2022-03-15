@@ -1,16 +1,9 @@
-Please find the team's tableau here: https://public.tableau.com/app/profile/michal.michael/viz/Finance_project_16468574032900/ModelScores?publish=yes
+Please find the team's tableau here: 
+
+https://public.tableau.com/app/profile/michal.michael/viz/Finance_project_16468574032900/MachineLearningScoresbyModel?publish=yes
 
 Please find a detailed list of the charts available below:
 1. NYA V NASDAQ High Low Chart - comparison between NYA and NASDAQ average high and average low per year 
 2. NYA and NASDAQ Volume - a liine chart showing the increasing volume that people are purchasing (could show importance of being able to predict)
-3. NYA Random Forest Actual Movement - Bar chart of the actual Up V Down for the Random Forest model
-4. NYA Random Forest Predicted Movement - Bar chart of the Predicted Up V Down for the Random Forest model
-5. NYA SMOTE Actual Movement - Bar chart of the actual Up V Down for the Random Forest model after SMOTE resampling
-6. NYA SMOTE Predicted Movement - Bar chart of the Predicted Up V Down for the Random Forest model after SMOTE resampling
-7. NYA Undersampling Actual Movement - Bar chart of the actual Up V Down for the Random Forest model after undersampling resampling
-8. NYA Undersampling Predicted Movement - Bar chart of the Predicted Up V Down for the Random Forest model after undersampling resampling
-9. Model Scores - side by side circle charts showing the precision, sccuracy, and f1 score for each machine learning model given the index went up/down/overall
-
-Open Questions:
-Can we combine the bar charts?
-Can we compare NYA V NASDAQ?
+3. Pie chart by Index and Model to show accuracy of prediction
+4. Model Scores - side by side circle charts showing the precision, sccuracy, and f1 score for each machine learning model given the index went up/down/overall
