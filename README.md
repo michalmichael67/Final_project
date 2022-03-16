@@ -61,8 +61,3 @@ We will creatge our dashboard using Tableau. We intend to use filters on Year, I
 
 ## Communication Protocols
 Our main plan is to touch base through slack as that has been an active and funcitonal method thus far. If a team member is unreachable through slack, we have shared our emails as a secondary line of communication.
-
-
-
-
-
