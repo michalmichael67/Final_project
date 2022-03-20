@@ -1,0 +1,9 @@
+Please find the team's tableau here: 
+
+https://public.tableau.com/app/profile/michal.michael/viz/Finance_project_16468574032900/MachineLearningScoresbyModel?publish=yes
+
+Please find a detailed list of the charts available below:
+1. NYA V NASDAQ High Low Chart - comparison between NYA and NASDAQ average high and average low per year 
+2. NYA and NASDAQ Volume - a liine chart showing the increasing volume that people are purchasing (could show importance of being able to predict)
+3. Pie chart by Index and Model to show accuracy of prediction
+4. Model Scores - side by side circle charts showing the precision, sccuracy, and f1 score for each machine learning model given the index went up/down/overall

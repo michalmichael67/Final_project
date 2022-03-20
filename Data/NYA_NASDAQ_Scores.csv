@@ -1,0 +1,25 @@
+﻿Index,Exchange,Model,Direction,Precision,Accuracy,F1
+NYA,New York Stock Exchange,Random Forest Classifier,Down,0.75,0.77,0.76
+NYA,New York Stock Exchange,Random Forest Classifier,Up,0.79,0.77,0.78
+NYA,New York Stock Exchange,Random Forest Classifier,Overall,0.77,0.77,0.77
+NYA,New York Stock Exchange,Random Forest Classifier - SMOTE Oversampling,Down,0.89,0.83,0.86
+NYA,New York Stock Exchange,Random Forest Classifier - SMOTE Oversampling,Up,0.86,0.91,0.89
+NYA,New York Stock Exchange,Random Forest Classifier - SMOTE Oversampling,Overall,0.88,0.87,0.87
+NYA,New York Stock Exchange,Random Forest Classifier - Undersampling,Down,0.84,0.89,0.86
+NYA,New York Stock Exchange,Random Forest Classifier - Undersampling,Up,0.9,0.86,0.88
+NYA,New York Stock Exchange,Random Forest Classifier - Undersampling,Overall,0.87,0.87,0.87
+NYA,New York Stock Exchange,Decision Tree,Down,0.74,0.73,0.74
+NYA,New York Stock Exchange,Decision Tree,Up,0.77,0.78,0.77
+NYA,New York Stock Exchange,Decision Tree,Overall,0.76,0.76,0.76
+IXIC,NASDAQ,Random Forest Classifier,Down,0.58,0.64,0.61
+IXIC,NASDAQ,Random Forest Classifier,Up,0.69,0.63,0.66
+IXIC,NASDAQ,Random Forest Classifier,Overall,0.64,0.64,0.64
+IXIC,NASDAQ,Random Forest Classifier - SMOTE Oversampling,Down,0.73,0.79,0.76
+IXIC,NASDAQ,Random Forest Classifier - SMOTE Oversampling,Up,0.82,0.77,0.8
+IXIC,NASDAQ,Random Forest Classifier - SMOTE Oversampling,Overall,0.78,0.78,0.78
+IXIC,NASDAQ,Random Forest Classifier - Undersampling,Down,0.73,0.78,0.75
+IXIC,NASDAQ,Random Forest Classifier - Undersampling,Up,0.82,0.77,0.79
+IXIC,NASDAQ,Random Forest Classifier - Undersampling,Overall,0.78,0.77,0.78
+IXIC,NASDAQ,Decision Tree,Down,0.58,0.57,0.58
+IXIC,NASDAQ,Decision Tree,Up,0.67,0.68,0.67
+IXIC,NASDAQ,Decision Tree,Overall,0.63,0.63,0.63
