@@ -22,7 +22,7 @@ We added PrevClose, PrevHigh, PrevLow to train our machine learning model. We ad
 ![NYA_updated_dtypes.png](Resources/NYA_updated_dtypes.png) 
 
 ### Database Creation
-We created a SQL database which included 2 main tables - A table with open/close data for the last 60 years for all indexes and another table with reference data. From these intial tables, we created 2 additional tables that were used in the amchine learning model. 
+We created a SQL database which included 2 main tables - A table with open/close data for the last 60 years for all indexes and another table with reference data. From these intial tables, we created 2 additional tables that were used in the machine learning model. 
 
 The structure of the tables can be viewed below:
 
@@ -32,7 +32,7 @@ The structure of the tables can be viewed below:
 We decided to go with a supervised machine learning model that would classify the data and to try and predict whether the index would go up or down based on a combination of today and yesterdays data.  Over the couse fo this project, we tried 4 machine learning models:
 
 1. Logistic Regression - This was a base level model to see where we could improve
-2. Balanced Random Forest Classifier - the enxt 2 machine learning models try to account for a slight imbalance in data
+2. Balanced Random Forest Classifier - the next 2 machine learning models try to account for a slight imbalance in data
 3. SMOTE oversampling 
 4. Undersampling
 5. Decision Tree Model
