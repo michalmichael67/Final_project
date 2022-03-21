@@ -57,7 +57,7 @@ Our presentation has been created in google sheets and has the following slides:
 8. Undersampling
 8. Decision Tree Model
 
-Link to Google Slides : 
+Link to Google Slides :
 https://docs.google.com/presentation/d/18oep-1vExz-zX89DUcph0Wy5RHCpYYMkG6KXo5J1TsE/edit#slide=id.g19fc555e75fdc6a8_26
 
 ### Dashboard
