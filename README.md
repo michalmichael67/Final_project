@@ -38,14 +38,14 @@ We decided to go with a supervised machine learning model that would classify th
 5. Decision Tree Model
 
 ### Visualization
-To visualize the data we used a combination of exploratory data analysis before performing logistic regression and then created more visualizations after the fact. In this proccess we used:
+To visualize the data we used a combination of exploratory data analysis before performing logistic regression and then created more visualizations after the fact. In this process we used:
 
 1. Seaborn to create line plots and pie plots to understand the opening/closing data
 2. Pyplot to produce regression plots
 3. Tableau to create interactive plots to better explain and understand our data
 
 ### Presentation 
-Our presentation has been created in google sheets and has the following slides:
+Our presentation has been created in Google Sheets and has the following slides:
 
 1. Title
 2. Big Question
