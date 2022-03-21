@@ -29,7 +29,7 @@ The structure of the tables can be viewed below:
 ![ERD_Diagram.png](Resources/ERD_Diagram.png) 
 
 ### Machine Learning Model
-We decided to go with a supervised machine learning model that would classify the data and to try and predict whether the index would go up or down based on a combination of today and yesterdays data.  Over the couse fo this project, we tried 4 machine learning models:
+We decided to go with a supervised machine learning model that would classify the data and to try and predict whether the index would go up or down based on a combination of today and yesterday's data.  Over the couse fo this project, we tried 4 machine learning models:
 
 1. Logistic Regression - This was a base level model to see where we could improve
 2. Balanced Random Forest Classifier - the next 2 machine learning models try to account for a slight imbalance in data
