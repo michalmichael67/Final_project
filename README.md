@@ -84,6 +84,3 @@ https://docs.google.com/presentation/d/18oep-1vExz-zX89DUcph0Wy5RHCpYYMkG6KXo5J1
 
 ### Dashboard
 We will create our dashboard using Tableau. We intend to use filters on Year, Index, and Machine Learning Model to focus on certain outcomes that we would like to highlight.
-
-## Communication Protocols
-Our main plan is to touch base through slack as that has been an active and functional method thus far. If a team member is unreachable through slack, we have shared our emails as a secondary line of communication.
