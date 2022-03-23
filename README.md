@@ -47,7 +47,7 @@ We decided to go with a supervised machine learning model that would classify th
 5. Decision Tree Model
 
 #### Feature Selection
-Following features were used : Open, PrevHigh, PrevLow, PrevClose.  The features were chosen becuase they could improve the accuracy and help predict the directional outcome of the index. We tried other feature combination but ultimately these four proved to have highest accuracy.
+Following features were used : Open, PrevHigh, PrevLow, PrevClose.  The features were chosen because they could improve the accuracy and help predict the directional outcome of the index. We tried other feature combination but ultimately these four proved to have highest accuracy.
 
 #### Train Test Split
 We used sklearn.modle_selection library to split our data into testing and training set. And we used Oversampling and Undersampling models to reduce slight imbalance in the initial up/down. 
