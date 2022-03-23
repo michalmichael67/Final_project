@@ -69,11 +69,15 @@ Our presentation has been created in Google Sheets and has the following slides:
 2. Big Question
 3. Why we chose this topic
 4. Dataset, Variables, Technology
-5. ER Diagram
-6. Machine Learning Models - Random Forest
-7. SMOTE Oversampling
-8. Undersampling
-8. Decision Tree Model
+5. Data Types & Data Cleansing
+6. ER Diagram
+7. Machine Learning Models - Random Forest
+8. SMOTE Oversampling
+9. Undersampling
+10. Decision Tree Model
+11. Results
+12. Recommendations for Future Analysis
+13. What We'd Do Differently
 
 Link to Google Slides :
 https://docs.google.com/presentation/d/18oep-1vExz-zX89DUcph0Wy5RHCpYYMkG6KXo5J1TsE/edit#slide=id.g19fc555e75fdc6a8_26
