@@ -21,6 +21,15 @@ We added PrevClose, PrevHigh, PrevLow to train our machine learning model. We ad
 
 ![NYA_updated_dtypes.png](Resources/NYA_updated_dtypes.png) 
 
+Additionally we did following steps: 
+
+* Dropped NaN/ Nulls
+* Added previous day’s High, Low, Close to today’s row
+* Added Delta and Target Columns
+    * Delta: % gain or loss based on Close price
+    * Target: Determine Up/Down Trend based on Delta
+
+
 ### Database Creation
 We created a SQL database which included 2 main tables - A table with open/close data for the last 60 years for all indexes and another table with reference data. From these intial tables, we created 2 additional tables that were used in the machine learning model. 
 
@@ -36,6 +45,15 @@ We decided to go with a supervised machine learning model that would classify th
 3. SMOTE oversampling 
 4. Undersampling
 5. Decision Tree Model
+
+#### Feature Selection
+Following features were used : Open, PrevHigh, PrevLow, PrevClose.  The features were chosen becuase they could improve the accuracy and help predict the directional outcome of the index. We tried other feature combination but ultimately these four proved to have highest accuracy.
+
+#### Train Test Split
+We used sklearn.modle_selection library to split our data into testing and training set. And we used Oversampling and Undersampling models to reduce slight imbalance in the initial up/down. 
+
+#### Machin Learning Model Choice
+We used classification model to predict the directionality of the index. The model is less precise than linear Regression model but it would provide the general indication of the up/down trend for the Index Close price. With in the five models we tried, OVersampling & Undersampling provided the highest precision, accuracy and f1 score. 
 
 ### Visualization
 To visualize the data we used a combination of exploratory data analysis before performing logistic regression and then created more visualizations after the fact. In this process we used:
