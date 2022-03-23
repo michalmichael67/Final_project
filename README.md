@@ -52,7 +52,7 @@ Following features were used : Open, PrevHigh, PrevLow, PrevClose.  The features
 #### Train Test Split
 We used sklearn.modle_selection library to split our data into testing and training set. And we used Oversampling and Undersampling models to reduce slight imbalance in the initial up/down. 
 
-#### Machin Learning Model Choice
+#### Machine Learning Model Choice
 We used classification model to predict the directionality of the index. The model is less precise than linear Regression model but it would provide the general indication of the up/down trend for the Index Close price. With in the five models we tried, OVersampling & Undersampling provided the highest precision, accuracy and f1 score. 
 
 ### Visualization
