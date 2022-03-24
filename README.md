@@ -60,7 +60,7 @@ To visualize the data we used a combination of exploratory data analysis before 
 
 1. Seaborn to create line plots and pie plots to understand the opening/closing data
 2. Pyplot to produce regression plots
-3. Tableau to create interactive plots to better explain and understand our data
+3. Tableau to create interactive plots to better explain and understand our data (https://public.tableau.com/app/profile/michal.michael/viz/Finance_project_16468574032900/ExploratoryAnalysis?publish=yes)
 
 ### Presentation 
 Our presentation has been created in Google Sheets and has the following slides:
@@ -84,4 +84,4 @@ Link to Google Slides :
 https://docs.google.com/presentation/d/18oep-1vExz-zX89DUcph0Wy5RHCpYYMkG6KXo5J1TsE/edit#slide=id.g19fc555e75fdc6a8_26
 
 ### Dashboard
-We will create our dashboard using Tableau. We intend to use filters on Year, Index, and Machine Learning Model to focus on certain outcomes that we would like to highlight.
+We will create our dashboard using Tableau. We intend to use filters on Year, Index, and Machine Learning Model to focus on certain outcomes that we would like to highlight. (https://public.tableau.com/app/profile/michal.michael/viz/Finance_project_16468574032900/ExploratoryAnalysis?publish=yes)
