@@ -69,7 +69,7 @@ We used classification model to predict the directionality of the index. The mod
 * Drawback: Value gained from additional samples drops off over time
 * Success: Handles linear and non-linear relationships well!
 * Scores for NYSE
-** Accuracy: 0.77
+    * Accuracy: 0.77
 ** Precision: 0.77
 ** F1: 0.77
 * Scores for NASDAQ
