@@ -60,7 +60,7 @@ To visualize the data we used a combination of exploratory data analysis before 
 
 1. Seaborn to create line plots and pie plots to understand the opening/closing data
 2. Pyplot to produce regression plots
-3. Tableau to create interactive plots to better explain and understand our data (https://public.tableau.com/app/profile/michal.michael/viz/Finance_project_16468574032900/ExploratoryAnalysis?publish=yes)
+3. Tableau to create interactive plots to better explain and understand our data
 
 ### Presentation 
 Our presentation has been created in Google Sheets and has the following slides:
