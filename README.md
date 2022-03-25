@@ -59,9 +59,9 @@ We used classification model to predict the directionality of the index. The mod
 * Drawback: Assumes linearity between dependent and independent variables
 * Success: Solid baseline!
 * Scores for NYSE
-** Accuracy: 0.85
+    * Accuracy: 0.85
 * Scores for NASDAQ
-** Accuracy: 0.62
+    * Accuracy: 0.62
 
 (For logistic regression we can only report accuracy scores)
 
@@ -70,48 +70,48 @@ We used classification model to predict the directionality of the index. The mod
 * Success: Handles linear and non-linear relationships well!
 * Scores for NYSE
     * Accuracy: 0.77
-** Precision: 0.77
-** F1: 0.77
+    * Precision: 0.77
+    * F1: 0.77
 * Scores for NASDAQ
-** Accuracy: 0.64
-** Precision: 0.64
-** F1: 0.64
+    * Accuracy: 0.64
+    * Precision: 0.64
+    * F1: 0.64
 
 <b>SMOTE Oversampling</b>
 * Drawback: Overfitting more likely
 * Success: Doesn't lose any information!
 * Scores for NYSE
-** Accuracy: 0.87
-** Precision: 0.88
-** F1: 0.87
+    * Accuracy: 0.87
+    * Precision: 0.88
+    * F1: 0.87
 * Scores for NASDAQ
-** Accuracy: 0.78
-** Precision: 0.78
-** F1: 0.78
+    * Accuracy: 0.78
+    * Precision: 0.78
+    * F1: 0.78
 
 <b>Undersampling</b>
 * Drawback: Potentially discarding useful data
 * Success: Helps against skewing towards the majority class!
 * Scores for NYSE
-** Accuracy: 0.87
-** Precision: 0.87
-** F1: 0.87
+    * Accuracy: 0.87
+    * Precision: 0.87
+    * F1: 0.87
 * Scores for NASDAQ
-** Accuracy: 0.77
-** Precision: 0.78
-** F1: 0.78
+    * Accuracy: 0.77
+    * Precision: 0.78
+    * F1: 0.78
 
 <b>Decision Tree Model</b>
 * Drawback: Sensitive to small changes in data
 * Success: Visually intuitive and efficient!
 * Scores for NYSE
-** Accuracy: 0.76
-** Precision: 0.76
-** F1: 0.76
+    * Accuracy: 0.76
+    * Precision: 0.76
+    * F1: 0.76
 * Scores for NASDAQ
-** Accuracy: 0.63
-** Precision: 0.63
-** F1: 0.63
+    * Accuracy: 0.63
+    * Precision: 0.63
+    * F1: 0.63
 
 (There were no changes in machine learning models between segment 2 and 3)
 
