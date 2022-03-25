@@ -21,7 +21,7 @@ We added PrevClose, PrevHigh, PrevLow to train our machine learning model. We ad
 
 ![NYA_updated_dtypes.png](Resources/NYA_updated_dtypes.png) 
 
-Additionally we did following steps: 
+Additionally we took the following steps: 
 
 * Dropped NaN/ Nulls
 * Added previous day’s High, Low, Close to today’s row
@@ -38,7 +38,7 @@ The structure of the tables can be viewed below:
 ![ERD_Diagram.png](Resources/ERD_Diagram.png) 
 
 ### Machine Learning Model
-We decided to go with a supervised machine learning model that would classify the data and to try and predict whether the index would go up or down based on a combination of today and yesterday's data.  Over the couse fo this project, we tried 4 machine learning models:
+We decided to go with a supervised machine learning model that would classify the data and to try to predict whether the index would go up or down based on a combination of today and yesterday's data. Over the couse fo this project, we tried 4 machine learning models:
 
 1. Logistic Regression - This was a base level model to see where we could improve
 2. Balanced Random Forest Classifier - the next 2 machine learning models try to account for a slight imbalance in data
@@ -47,7 +47,7 @@ We decided to go with a supervised machine learning model that would classify th
 5. Decision Tree Model
 
 #### Feature Selection
-Following features were used : Open, PrevHigh, PrevLow, PrevClose. The features were chosen because they could improve the accuracy and help predict the directional outcome of the index. We determined that the easiest way to predict a closing value would be by using the range of values from previous day, and one's baseline from the current day. We tried other feature combinations, but ultimately these four proved to have highest accuracy. 
+Following features were used: Open, PrevHigh, PrevLow, PrevClose. The features were chosen because they could improve the accuracy and help predict the directional outcome of the index. We determined that the easiest way to predict a closing value would be by using the range of values from previous day, and one's baseline from the current day. We tried other feature combinations, but ultimately these four proved to have highest accuracy. 
 
 #### Train Test Split
 We used sklearn.modle_selection library to split our data into testing and training set. And we used Oversampling and Undersampling models to reduce slight imbalance in the initial up/down. 
